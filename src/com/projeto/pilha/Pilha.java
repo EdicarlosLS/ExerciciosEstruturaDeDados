@@ -40,12 +40,14 @@ public class Pilha<C> {
 
     @Override
     public String toString() {
-        String saida = "Pilha - " + tamanho;
+        String saida = "\n _ _ _ _ _ _\n|Pilha - (tamanho : " + tamanho + ")";
+        saida += "\n|_ _ _ _ _ _";
         No<C> no = topo;
         while(no != null){
-            saida += "\nv - " + no.getConteudo();
+            saida += "\n| * " + no.getConteudo();
             no = no.getProximo();
         }
+        saida += "\n|_ _ _ _ _ _";
         
         return saida;
     }
