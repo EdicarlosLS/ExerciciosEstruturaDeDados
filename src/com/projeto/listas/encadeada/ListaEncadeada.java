@@ -1,4 +1,4 @@
-package listas;
+package com.projeto.listas.encadeada;
 
 import com.projeto.No;
 

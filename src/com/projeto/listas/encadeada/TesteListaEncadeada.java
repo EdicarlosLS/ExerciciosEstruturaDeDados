@@ -1,4 +1,6 @@
-package listas;
+package com.projeto.listas.encadeada;
+
+import com.projeto.listas.encadeada.ListaEncadeada;
 
 public class TesteListaEncadeada {
     public static void main(String[] args) {
